@@ -44,17 +44,17 @@ input[type="text"] {
   height: 5vh;
   color: black;
   background-color: rgb(231, 237, 247);
-  font-size: 0.5em;
+  font-size: 0.8em;
 }
 
 input[type="button"] {
-  width: 20%;
+  width: 40%;
   height: 5vh;
   margin: 10px 5px 1px 60%;
   border-radius: 5px;
   color: #fff;
   background-color: green;
-  font-size: 0.3em;
+  font-size: 0.6em;
 }
 button {
   border: 1px solid gray;
