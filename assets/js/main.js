@@ -1,5 +1,5 @@
 console.log('hi');
-/
+
     function rechnen(name,age ){
         name= document.getElementById("name");
         age= age = document.getElementById("age");
