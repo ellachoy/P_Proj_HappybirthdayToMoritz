@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  font-size: 2.5em;
+  font-family: "ZCOOL KuaiLe", cursive;
+}
+
+button {
+  border: 1px solid gray;
+  border-radius: 50px;
+  background-color: orange;
+  font-size: 20px;
+  padding: 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: transform 300ms ease;
+}
+button:hover,
+a:hover {
+  background-color: blue;
+  color: white;
+  transform: scale(1, 1.5);
+}

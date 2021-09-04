@@ -8,6 +8,32 @@
     <link rel="stylesheet" href="../css/game.css">
 </head>
 <body>
-    <script src="../js/main.js"></script>
+
+    <body>
+        <section>
+            <div>
+                <h1>User</h1>
+                <h2 id="user">?</h2> 
+            </div>
+            <div>
+                <h1>Computer</h1>
+                <h2 id="com">?</h2>
+            </div>
+        </section>
+    
+        <form action="">
+            <input type="button" value="0" id="rock" onclick="do_rock()"img src="../img/r.jpeg" alt="#">
+    
+            <input type="button" value="1" id="scissor" onclick="do_scissor()">
+    
+            <input type="button" value="2" id="paper" onclick="do_paper()">
+            
+        </form>
+        <input type="button" value="Rock-Paper-Scissor" id="btn" onclick="get_results()"> 
+        </div>
+        <br>
+        <div id="result"> </div>
+        <br>
+    <script src="../js/game.js"></script>
 </body>
 </html>
