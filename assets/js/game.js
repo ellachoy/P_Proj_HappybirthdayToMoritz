@@ -1,11 +1,7 @@
 console.log("proj");
 
-
-
 function get_results(){
-    // console.log(document.getElementById('btn').checked).value;
-    // c_box= Number(document.querySelector('input[type=button]').checked.value);
-
+   
     com_cal= Math.floor(Math.random()*3);
     console.log(`com : ${com_cal}`);
     str_Input= ['Rock', 'Paper', 'Scissors'];
@@ -25,7 +21,6 @@ function get_results(){
      document.getElementById('com').innerHTML=str_Input[com_cal];   
         
 }
-
 // user
 let user=0;
 
